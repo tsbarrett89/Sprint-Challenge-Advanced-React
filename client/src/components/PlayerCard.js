@@ -7,6 +7,7 @@ const PlayerCard = (props) => {
         <div>
             <h2>{props.name}</h2>
             <h3>{props.country}</h3>
+            <p>Searches: {props.searchNumber}</p>
         </div>
     )
 } 

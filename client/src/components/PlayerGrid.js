@@ -12,6 +12,7 @@ const PlayerGrid = (props) => {
                 key={player.id}
                 name={player.name}
                 country={player.country}
+                searchNumber={player.searches}
                 />
             ))}
             
